@@ -19,22 +19,20 @@ section {
   align-items: center;
   width: 100%;
   height: 100vh;
-}
-section {
   background-image: url(image4.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #hero .section-box::before {
-  content: '';
+  /* content: '';
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: linear-gradient(transparent 60%, rgb(4, 61, 42) ) ;
-  z-index: 1;
+  z-index: 1; */
 }
 .section-box {
   background-color: rgba(255, 255, 255, 0.15);
